@@ -9,7 +9,7 @@ class UberVan extends Car {
     public UberVan(String license, Account driver,
     Map<String, Map<String,Integer>> typeCarAccepted,
     ArrayList<String> seatsMaterial) {
-        super(license, driver))
+        super(license, driver);
         this.typeCarAccepted = typeCarAccepted;
         this.seatsMaterial = seatsMaterial;
     }

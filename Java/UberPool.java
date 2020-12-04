@@ -3,7 +3,7 @@ class UberPool extends Car {
     String model;
 
     public UberPool(String license, Account driver, String brand, String model) {
-        super(license, driver)
+        super(license, driver);
         this.brand = brand;
         this.model = model;
     }

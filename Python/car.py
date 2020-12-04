@@ -1,5 +1,8 @@
 class Car:
     id = int
-    licenes = str
+    license = str
     driver = str
     passenger = str
+
+    # def printDataCar():
+    #     print(f"Licence: {license} ,Driver: {driver}")
